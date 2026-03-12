@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Liza Demo</title>
+	<link>http://localhost</link>
+	<description>Liza Theme Demo Content</description>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://localhost</wp:base_site_url>
+	<wp:base_blog_url>http://localhost</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[liza]]></wp:author_login>
+		<wp:author_email><![CDATA[demo@liza-theme.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Liza]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Liza]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[Theme]]></wp:author_last_name>
+	</wp:author>
+
+	<!-- Categories -->
+	<wp:category>
+		<wp:term_id>1</wp:term_id>
+		<wp:category_nicename><![CDATA[lifestyle]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Lifestyle]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>2</wp:term_id>
+		<wp:category_nicename><![CDATA[travel]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Travel]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>3</wp:term_id>
+		<wp:category_nicename><![CDATA[food]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Food]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>4</wp:term_id>
+		<wp:category_nicename><![CDATA[inspiration]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Inspiration]]></wp:cat_name>
+	</wp:category>
+
+	<!-- Tags -->
+	<wp:tag>
+		<wp:term_id>5</wp:term_id>
+		<wp:tag_slug><![CDATA[featured]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Featured]]></wp:tag_name>
+	</wp:tag>
+	<wp:tag>
+		<wp:term_id>6</wp:term_id>
+		<wp:tag_slug><![CDATA[trending]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Trending]]></wp:tag_name>
+	</wp:tag>
+
+	<!-- Navigation Menu -->
+	<wp:term>
+		<wp:term_id>7</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[main-menu]]></wp:term_slug>
+		<wp:term_name><![CDATA[Main Menu]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id>8</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[top-menu]]></wp:term_slug>
+		<wp:term_name><![CDATA[Top Menu]]></wp:term_name>
+	</wp:term>
+
+	<!-- ==================== PAGES ==================== -->
+
+	<!-- Home Page -->
+	<item>
+		<title>Home</title>
+		<link>http://localhost/?page_id=10</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[Welcome to the Liza theme demo. This is a clean, elegant blog theme designed for creative minds and storytellers.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- About Page -->
+	<item>
+		<title>About</title>
+		<link>http://localhost/?page_id=11</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<h2>About Liza</h2>
+Welcome to Liza — a beautifully crafted blog theme. Whether you are a lifestyle blogger, a traveler, or a food enthusiast, Liza provides you with a stunning canvas for your stories.
+
+<h3>Our Mission</h3>
+We believe every story deserves to look beautiful. That's why we designed Liza with attention to detail, clean typography, and an elegant layout that puts your content first.
+
+<h3>Features</h3>
+<ul>
+<li>Responsive and mobile-friendly design</li>
+<li>Featured slider with stunning visuals</li>
+<li>Multiple layout options</li>
+<li>Dark mode support</li>
+<li>Full customizer integration</li>
+</ul>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Learn more about the Liza theme and what makes it special.]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-02 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-02 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-02 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-02 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- Contact Page -->
+	<item>
+		<title>Contact</title>
+		<link>http://localhost/?page_id=12</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<h2>Get in Touch</h2>
+We would love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.
+
+<strong>Email:</strong> hello@liza-theme.com
+
+You can also follow us on social media for the latest updates and inspiration.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Get in touch with us.]]></excerpt:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-03 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-03 10:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-03 10:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-03 10:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- ==================== POSTS ==================== -->
+
+	<!-- Post 1 -->
+	<item>
+		<title>The Art of Minimal Living</title>
+		<link>http://localhost/?p=20</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<p>Minimalism is more than just a design trend — it's a way of life. By stripping away the unnecessary, we can focus on what truly matters. In this post, we explore the principles of minimal living and how you can start your own journey toward simplicity.</p>
+
+<h3>Start Small</h3>
+<p>You don't have to overhaul your entire life overnight. Begin with one room, one drawer, or even one habit. The key is consistency over perfection.</p>
+
+<h3>Quality Over Quantity</h3>
+<p>Invest in fewer, better things. A well-made item that lasts years is more valuable than a dozen cheap alternatives that need constant replacing.</p>
+
+<blockquote>The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.</blockquote>
+
+<p>Whether it's your wardrobe, your workspace, or your digital life, the principles of minimalism can bring clarity, calm, and a renewed sense of purpose.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Discover the beauty of living with less and focusing on what truly matters.]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-05 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-05 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-05 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-05 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[the-art-of-minimal-living]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
+	</item>
+
+	<!-- Post 2 -->
+	<item>
+		<title>Wanderlust: Hidden Gems of the Mediterranean</title>
+		<link>http://localhost/?p=21</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<p>The Mediterranean is known for its sun-kissed coastlines and charming villages, but beyond the tourist hotspots lie hidden gems waiting to be discovered. Join us as we explore the lesser-known destinations that make this region truly magical.</p>
+
+<h3>Coastal Villages</h3>
+<p>From the colorful houses of the Italian Riviera to the whitewashed walls of Greek islands, every village tells its own story. Take the time to wander through narrow streets and discover local cafés, artisan shops, and breathtaking viewpoints.</p>
+
+<h3>Local Cuisine</h3>
+<p>One of the best ways to experience a culture is through its food. Try the fresh seafood at a family-run taverna, sample homemade olive oil straight from the press, or indulge in pastries from a local bakery.</p>
+
+<p>The Mediterranean isn't just a destination — it's a feeling. It's the warm breeze on your face, the sound of waves, and the taste of freshly picked lemons.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Explore the lesser-known treasures of the Mediterranean coast.]]></excerpt:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-10 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-10 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-10 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-10 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[wanderlust-hidden-gems-mediterranean]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="travel"><![CDATA[Travel]]></category>
+		<category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
+	</item>
+
+	<!-- Post 3 -->
+	<item>
+		<title>Farm-to-Table: A Weekend Cooking Guide</title>
+		<link>http://localhost/?p=22</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<p>There's something deeply satisfying about cooking with fresh, locally sourced ingredients. In this guide, we take you through a weekend of farm-to-table cooking that will delight your senses and nourish your soul.</p>
+
+<h3>Saturday Morning: The Farmer's Market</h3>
+<p>Start your weekend at the local farmer's market. Pick up seasonal vegetables, fresh herbs, artisan bread, and free-range eggs. Talk to the farmers — their passion and knowledge add an extra layer of appreciation to every meal.</p>
+
+<h3>Saturday Evening: Rustic Dinner</h3>
+<p>Prepare a simple yet elegant dinner: roasted root vegetables with rosemary, a fresh garden salad with homemade vinaigrette, and crusty bread with herb butter. Let the ingredients speak for themselves.</p>
+
+<h3>Sunday Brunch</h3>
+<p>Use the remaining eggs for a fluffy omelette filled with sautéed mushrooms and goat cheese. Pair it with fresh-squeezed orange juice and a strong cup of coffee.</p>
+
+<p>Farm-to-table cooking isn't just about the food — it's about slowing down, connecting with your community, and savoring every bite.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[A weekend guide to cooking with fresh, locally sourced ingredients.]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-15 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-15 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-15 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-15 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[farm-to-table-weekend-cooking-guide]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="food"><![CDATA[Food]]></category>
+		<category domain="post_tag" nicename="trending"><![CDATA[Trending]]></category>
+	</item>
+
+	<!-- Post 4 -->
+	<item>
+		<title>Finding Inspiration in Everyday Moments</title>
+		<link>http://localhost/?p=23</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<p>Inspiration doesn't always come from grand adventures or life-changing events. Sometimes, the most profound moments of creativity and clarity are found in the quietest parts of our daily lives.</p>
+
+<h3>Morning Rituals</h3>
+<p>The first hour of your day sets the tone for everything that follows. Whether it's a cup of coffee on the porch, a few pages of a good book, or a short walk around the neighborhood — these small rituals can spark big ideas.</p>
+
+<h3>The Power of Observation</h3>
+<p>Pay attention to the details around you: the way light falls through a window, the pattern of rain on a windowpane, the laughter of children in a park. These are the raw materials of creativity.</p>
+
+<h3>Keep a Journal</h3>
+<p>Write down your thoughts, sketches, or even random words that catch your attention. Over time, your journal becomes a treasure trove of ideas waiting to be developed.</p>
+
+<p>Inspiration is everywhere — you just need to slow down enough to notice it.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[How to find creative inspiration in the quiet moments of daily life.]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-20 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-20 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-20 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-20 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[finding-inspiration-everyday-moments]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="inspiration"><![CDATA[Inspiration]]></category>
+		<category domain="post_tag" nicename="featured"><![CDATA[Featured]]></category>
+	</item>
+
+	<!-- Post 5 -->
+	<item>
+		<title>A Guide to Cozy Autumn Styling</title>
+		<link>http://localhost/?p=24</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[<p>As the leaves change color and the air turns crisp, it's time to embrace the warmth and beauty of autumn. This guide covers everything from home décor to personal style, helping you create a cozy atmosphere for the season.</p>
+
+<h3>Home Décor</h3>
+<p>Bring the outdoors in with dried flowers, warm-toned candles, and textured throws. A few simple changes can transform your space into a cozy retreat that invites relaxation.</p>
+
+<h3>Wardrobe Essentials</h3>
+<p>Layer up with soft knits, earth-toned scarves, and classic boots. Autumn fashion is all about comfort without sacrificing style. Choose pieces that transition easily from day to night.</p>
+
+<h3>Seasonal Flavors</h3>
+<p>Embrace the flavors of the season: pumpkin spice lattes, apple cider, cinnamon rolls, and hearty soups. Cooking seasonal recipes is one of the simplest pleasures of autumn.</p>
+
+<p>Autumn is a time for slowing down, getting cozy, and appreciating the beauty of change.</p>]]></content:encoded>
+		<excerpt:encoded><![CDATA[Embrace the warmth of autumn with cozy styling tips for home and wardrobe.]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-25 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-25 09:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-25 09:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-25 09:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[guide-cozy-autumn-styling]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<category domain="post_tag" nicename="trending"><![CDATA[Trending]]></category>
+	</item>
+
+	<!-- ==================== NAV MENU ITEMS ==================== -->
+
+	<!-- Main Menu: Home -->
+	<item>
+		<title>Home</title>
+		<link>http://localhost/?p=100</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>100</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:00:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+	</item>
+
+	<!-- Main Menu: About -->
+	<item>
+		<title>About</title>
+		<link>http://localhost/?p=101</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:01:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:01:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:01:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:01:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[11]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+	</item>
+
+	<!-- Main Menu: Lifestyle (category link) -->
+	<item>
+		<title>Lifestyle</title>
+		<link>http://localhost/?p=102</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:02:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:02:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:02:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:02:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[lifestyle-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+	</item>
+
+	<!-- Main Menu: Travel (category link) -->
+	<item>
+		<title>Travel</title>
+		<link>http://localhost/?p=103</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:03:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:03:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:03:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:03:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[travel-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+	</item>
+
+	<!-- Main Menu: Contact -->
+	<item>
+		<title>Contact</title>
+		<link>http://localhost/?p=104</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:04:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:04:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:04:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:04:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="main-menu"><![CDATA[Main Menu]]></category>
+	</item>
+
+	<!-- Top Menu: Home -->
+	<item>
+		<title>Home</title>
+		<link>http://localhost/?p=110</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>110</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:10:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:10:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:10:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:10:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[top-home-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
+	</item>
+
+	<!-- Top Menu: About -->
+	<item>
+		<title>About</title>
+		<link>http://localhost/?p=111</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>111</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:11:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:11:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:11:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:11:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[top-about-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[11]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
+	</item>
+
+	<!-- Top Menu: Contact -->
+	<item>
+		<title>Contact</title>
+		<link>http://localhost/?p=112</link>
+		<dc:creator><![CDATA[liza]]></dc:creator>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>112</wp:post_id>
+		<wp:post_date><![CDATA[2025-01-01 12:12:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-01-01 12:12:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-01-01 12:12:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-01-01 12:12:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[top-contact-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
+	</item>
+
+</channel>
+</rss>
