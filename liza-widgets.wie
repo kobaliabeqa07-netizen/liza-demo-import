@@ -1,0 +1,59 @@
+{
+  "data": {
+    "sidebar-right": {
+      "search-1": {
+        "title": "Search"
+      },
+      "recent-posts-1": {
+        "title": "Recent Posts",
+        "number": 5
+      },
+      "categories-1": {
+        "title": "Categories",
+        "count": 1,
+        "hierarchical": 0,
+        "dropdown": 0
+      },
+      "archives-1": {
+        "title": "Archives",
+        "count": 1,
+        "dropdown": 0
+      }
+    },
+    "sidebar-alt": {
+      "search-2": {
+        "title": "Search"
+      },
+      "pages-1": {
+        "title": "Pages",
+        "sortby": "menu_order",
+        "exclude": ""
+      },
+      "archives-2": {
+        "title": "Archives",
+        "count": 1,
+        "dropdown": 0
+      }
+    },
+    "footer-widgets": {
+      "text-1": {
+        "title": "About Liza",
+        "text": "Liza is a beautifully crafted blog theme designed for creative minds and storytellers. Share your passion with the world.",
+        "filter": true,
+        "visual": true
+      },
+      "recent-posts-2": {
+        "title": "Latest Posts",
+        "number": 3
+      },
+      "categories-2": {
+        "title": "Categories",
+        "count": 1,
+        "hierarchical": 0,
+        "dropdown": 0
+      }
+    }
+  },
+  "version": "1.0.0",
+  "theme": "liza"
+}
