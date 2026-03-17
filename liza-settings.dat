@@ -35,7 +35,7 @@
   "featured_slider_exc_images": false,
   "featured_slider_navigation": true,
   "featured_slider_pagination": true,
-  "featured_links_label": false,
+  "featured_links_label": true,
   "blog_page_post_description": "excerpt",
   "blog_page_post_pagination": "default",
   "blog_page_show_categories": true,
@@ -69,5 +69,12 @@
   "responsive_featured_links": false,
   "responsive_related_posts": false,
   "responsive_menu_icon": "bars",
-  "responsive_mobile_icon_text": ""
+  "responsive_mobile_icon_text": "",
+  "featured_links_location": "both",
+  "featured_links_title_1": "Lifestyle",
+  "featured_links_url_1": "/category/lifestyle/",
+  "featured_links_title_2": "Travel",
+  "featured_links_url_2": "/category/travel/",
+  "featured_links_title_3": "Fashion",
+  "featured_links_url_3": "/category/fashion/"
 }
