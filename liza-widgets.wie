@@ -9,10 +9,9 @@
     "search-20": {
       "title": ""
     },
-    "recent-posts-20": {
+    "liza_recent_posts-20": {
       "title": "Recent Posts",
-      "number": 3,
-      "show_date": true
+      "number": 3
     },
     "tag_cloud-20": {
       "title": "Tags",
@@ -30,10 +29,9 @@
     "search-21": {
       "title": "Search"
     },
-    "recent-posts-21": {
+    "liza_recent_posts-21": {
       "title": "Latest Dishes",
-      "number": 3,
-      "show_date": true
+      "number": 3
     }
   },
   "footer-widgets": {
@@ -49,10 +47,9 @@
       "hierarchical": 0,
       "dropdown": 0
     },
-    "recent-posts-22": {
+    "liza_recent_posts-22": {
       "title": "Recent Posts",
-      "number": 3,
-      "show_date": true
+      "number": 3
     }
   }
 }
