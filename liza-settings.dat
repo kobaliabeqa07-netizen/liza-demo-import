@@ -68,5 +68,6 @@
   "responsive_featured_slider": true,
   "responsive_featured_links": false,
   "responsive_menu_icon": "bars",
-  "responsive_mobile_icon_text": ""
+  "responsive_mobile_icon_text": "",
+  "header_image": "https://raw.githubusercontent.com/kobaliabeqa07-netizen/liza-demo-import/main/header-bg.png"
 }
