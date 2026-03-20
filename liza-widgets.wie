@@ -2,7 +2,7 @@
   "sidebar-right": {
     "text-2": {
       "title": "",
-      "text": "<img style=\"margin: 0 auto 16px auto; display: block; border-radius: 50%; width: 140px; height: 140px; object-fit: cover;\" src=\"https://raw.githubusercontent.com/kobaliabeqa07-netizen/liza-demo-import/main/images/restaurant-cozy.jpeg\" alt=\"\" />\n<h6 style=\"text-align: center; font-size: 16px; letter-spacing: 1.5px; margin-bottom: 4px;\">SAVORIA RESTAURANT</h6>\n<p style=\"text-align: center;\">A passion for honest, beautiful food. Join us for an unforgettable dining experience in the heart of the city.</p>",
+      "text": "<img style=\"margin: 0 auto 16px auto; display: block; border-radius: 50%; width: 200px; height: 200px; object-fit: cover;\" src=\"https://raw.githubusercontent.com/kobaliabeqa07-netizen/liza-demo-import/main/images/restaurant-cozy.jpeg\" alt=\"\" />\n<h6 style=\"text-align: center; font-size: 16px; letter-spacing: 1.5px; margin-bottom: 4px;\">SAVORIA RESTAURANT</h6>\n<p style=\"text-align: center;\">A passion for honest, beautiful food. Join us for an unforgettable dining experience in the heart of the city.</p>",
       "filter": true,
       "visual": true
     },
